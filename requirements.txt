@@ -1,0 +1,10 @@
+beautifulsoup4
+matplotlib
+mysql-connector-python
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+simpy
+xgboost
