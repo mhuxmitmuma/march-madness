@@ -48,3 +48,19 @@ Uncomment `load_all_data()` or `load_year(year)` in `main.py` to populate the da
 - **Run simulations**: `run_simulations(year, n)` — runs `n` Monte Carlo tournament simulations for the given year
 - **Train model**: `python train.py`
 - **Validate model**: `python validate.py`
+
+### Simulate the 2026 Tournament Bracket
+
+`bracket.py` runs a full tournament challenge simulation and prints each region's first-round matchups with win probabilities and per-round advancement percentages across all simulations.
+
+Edit the last line of `bracket.py` to set the number of simulations, then run it:
+
+```python
+tournament_challenge(2026, n)  # replace n with the number of simulations, e.g. 1000
+```
+
+```bash
+python bracket.py
+```
+
+Output shows each first-round matchup by region, with each team's probability of winning that game and their simulated advancement rate (%) for all 6 rounds.
